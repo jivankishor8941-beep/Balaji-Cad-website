@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Services from './Services';
 import About from './About';
+import ProjectGallery from './ProjectGallery';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
 
       {/* 4. About Us with NX Software Image */}
       <About />
-
+      <ProjectGallery/>
       {/* Footer (Chota sa placeholder) */}
       <footer className="bg-slate-900 text-white py-10 text-center">
         <p>© 2026 Balaji CAD Solutions. All Rights Reserved.</p>
